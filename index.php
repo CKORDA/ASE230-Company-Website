@@ -418,13 +418,13 @@ farming, and eco-technology innovations.</p>
         </section>
         <!-- Pricing end -->
 
-        <!-- Team start -->
+                <!-- Team start -->
         <section class="section bg-light" id="team">
             <div class="container">
                 <div class="row justify-content-center mb-4">
                     <div class="col-lg-7 text-center">
                         <h2 class="fw-bold">Our Team Members</h2>
-                        <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem ab illo inventore.</p>
+                        <p class="text-muted">Dr. Marcus Greene, Aisha Kwon, Carlos Mendoza, Lydia D'souza, Jamal Ahmed</p>
                     </div>
                     <!-- end col -->
                 </div>
@@ -447,8 +447,11 @@ farming, and eco-technology innovations.</p>
                                 </ul>
                             </div>
                             <div class="p-4">
-                                <h5 class="font-size-19 mb-1">Frances Thompson</h5>
-                                <p class="text-muted text-uppercase font-size-14 mb-0">Developer</p>
+                                <h5 class="font-size-19 mb-1">Dr. Marcus Greene</h5>
+                                <p class="text-muted text-uppercase font-size-14 mb-0">Founder & CEO</p>
+								<p class="text-muted text-uppercase font-size-10 mb-0">Holding a Ph.D. in Environmental Science from Stanford, Dr. 
+Greene has always been a passionate advocate for eco-conscious innovations. His visionary 
+leadership is the bedrock on which NaturaTech stands</p>
                             </div>
                         </div>
                     </div>
@@ -471,9 +474,12 @@ farming, and eco-technology innovations.</p>
                                 </ul>
                             </div>
                             <div class="p-4">
-                                <h5 class="font-size-19 mb-1">John Jones</h5>
-                                <p class="text-muted text-uppercase font-size-14 mb-0">Ceo</p>
-                            </div>
+                                <h5 class="font-size-19 mb-1">Aisha Kwon</h5>
+                                <p class="text-muted text-uppercase font-size-14 mb-0">CTO</p>
+								<p class="text-muted text-uppercase font-size-10 mb-0">Aisha, with her background in bio-engineering, is the mastermind behind the 
+cutting-edge technologies at NaturaTech. She believes in harnessing nature's wisdom to address 
+modern challenges</p>
+							</div>
                         </div>
                     </div>
                     <!-- end col -->
@@ -495,8 +501,11 @@ farming, and eco-technology innovations.</p>
                                 </ul>
                             </div>
                             <div class="p-4">
-                                <h5 class="font-size-19 mb-1">Della Hobbs</h5>
-                                <p class="text-muted text-uppercase font-size-14 mb-0">Designer</p>
+                                <h5 class="font-size-19 mb-1">Carlos Mendoza</h5>
+                                <p class="text-muted text-uppercase font-size-14 mb-0">Cheif of Design</p>
+								<p class="text-muted text-uppercase font-size-10 mb-0">Carlos, an alumnus of Design Academy Eindhoven, combines 
+minimalism with bio-inspired designs, making NaturaTech's products not only functional but also 
+aesthetically appealing.</p>
                             </div>
                         </div>
                     </div>
@@ -519,9 +528,36 @@ farming, and eco-technology innovations.</p>
                                 </ul>
                             </div>
                             <div class="p-4">
-                                <h5 class="font-size-19 mb-1">Troy Jordon</h5>
-                                <p class="text-muted text-uppercase font-size-14 mb-0">Developer</p>
+                                <h5 class="font-size-19 mb-1">Lydia D'souza</h5>
+                                <p class="text-muted text-uppercase font-size-14 mb-0">VP of Operations</p>
+								<p class="text-muted text-uppercase font-size-10 mb-0">Lydia's expertise lies in sustainable supply chains. She ensures 
+that every step in NaturaTech's operations is ethical, green, and efficient</p>
+							</div>
+                        </div>
+                    </div>
+                    <!-- end col -->
+					<div class="col-lg-3 col-sm-6">
+                        <div class="team-box mt-4 position-relative overflow-hidden rounded text-center shadow">
+                            <div class="position-relative overflow-hidden">
+                                <img src="images/team/4.jpg" alt="" class="img-fluid d-block mx-auto" />
+                                <ul class="list-inline p-3 mb-0 team-social-item">
+                                    <li class="list-inline-item mx-3">
+                                        <a href="javascript: void(0);" class="team-social-icon h-primary"><i class="icon-sm" data-feather="facebook"></i></a>
+                                    </li>
+                                    <li class="list-inline-item mx-3">
+                                        <a href="javascript: void(0);" class="team-social-icon h-info"><i class="icon-sm" data-feather="twitter"></i></a>
+                                    </li>
+                                    <li class="list-inline-item mx-3">
+                                        <a href="javascript: void(0);" class="team-social-icon h-danger"><i class="icon-sm" data-feather="instagram"></i></a>
+                                    </li>
+                                </ul>
                             </div>
+                            <div class="p-4">
+                                <h5 class="font-size-19 mb-1">Jamal Ahmed</h5>
+                                <p class="text-muted text-uppercase font-size-14 mb-0">Head of EcoLearn Hub</p>
+								<p class="text-muted text-uppercase font-size-10 mb-0"> Jamal, a former environmental studies professor from 
+Yale, curates and oversees the rich tapestry of courses offered by EcoLearn, spreading eco-awareness across the globe</p>
+							</div>
                         </div>
                     </div>
                     <!-- end col -->
