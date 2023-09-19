@@ -1,4 +1,14 @@
+<?php
+$fileName = 'C:\xampp\htdocs\ase230\ASE230-Company-Website\lib\getPlainText.php';
+$content = require_once($fileName);
 
+$CSV = 'C:\xampp\htdocs\ase230\ASE230-Company-Website\lib\getCsv.php';
+$contentCSV = require_once($CSV);
+
+$JSON = 'C:\xampp\htdocs\ase230\ASE230-Company-Website\lib\getJson.php';
+$contentJSON = require_once($JSON);
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -81,10 +91,7 @@
 
                             <span class="badge badge-soft-primary mb-4"> "Professional Landing"</span>
                             <h1 class="font-weight-semibold mb-4 hero-3-title">"Professional, Multipurpose Landing Page" </h1>
-                            <p class="mb-5 text-muted subtitle w-75 mx-auto"><?="NaturaTech Solutions Inc., established in 2019, is an eco-tech enterprise headquartered amidst the 
-greenery of Portland, Oregon. Embracing the philosophy of 'Progress in Harmony', the company strives 
-to produce technology that integrates seamlessly with nature, aiming to restore environmental balance 
-and promote sustainable living."?>
+                            <p class="mb-5 text-muted subtitle w-75 mx-auto"><?=getPlainText();?>
 </p>
 
                             
@@ -207,17 +214,7 @@ farming, and eco-technology innovations."?></p>
                         <h2 class="fw-bold"><?="Our Awards"?></h2>
                         <p class="text-muted">
                             <ul>
-                           <li><?="2022: Awarded 'Green Innovator of the Year' by Eco Warrior Digest in 2022."?></li>
-                           <br>
-                           <li> <?="2021: GreenRoof™ installations have increased urban green spaces by 150% in cities like Seattle 
-                                                             and Austin."?></li>
-                            <br>
-                           <li> <?="2021: Partnered with UNICEF to implement PureStream Filters™ in areas suffering from water 
-                            scarcity."?></li>
-                            <br>
-                            <li> <?="2020: TerraCharge™ pathways have been adopted by 20 major city parks globally, reducing their 
-                            carbon footprint."?></li>
-                            <br>
+                           <li><?=getCsv();?></li>
                             </ul></p>
                     </div>
 
