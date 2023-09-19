@@ -1,0 +1,31 @@
+
+[
+	{
+		"firstname":"Marcus",
+		"lastname":"Greene",
+		"position":"Founder & CEO",
+		"description":"Holding a Ph.D. in Environmental Science from Stanford, Dr. Greene has always been a passionate advocate for eco-conscious innovations. His visionary leadership is the bedrock on which NaturaTech stands."
+	},
+	{
+		"firstname":"Aisha",
+		"lastname":"Kwon",
+		"position":"CTO",
+		"description":"Aisha, with her background in bio-engineering, is the mastermind behind the cutting-edge technologies at NaturaTech. She believes in harnessing nature's wisdom to address modern challenges"
+	},
+	{
+		"firstname":"Carlos",
+		"lastname":"Mendoza",
+		"position":"Cheif of Design",
+		"description":"Carlos, an alumnus of Design Academy Eindhoven, combines minimalism with bio-inspired designs, making NaturaTech's products not only functional but also aesthetically appealing."
+	},
+	{
+		"firstname":"Lydia",
+		"lastname":"D'souza",
+		"position":"VP of Operations",
+		"description":"Lydia's expertise lies in sustainable supply chains. She ensures that every step in NaturaTech's operations is ethical, green, and efficient."
+	},
+	{
+		"firstname":"Jamal",
+		"lastname":"Ahmed",
+		"position":"Head of EcoLearn Hub",
+		"description":"Jamal, a former environmental studies professor from Yale, curates and oversees the rich tapestry of courses offered by EcoLearn, spreading eco-awareness across the globe."

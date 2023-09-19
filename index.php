@@ -1,8 +1,12 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
+
         <title><?= "NaturaTech Solutions Inc." ?> </title>
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Premium Bootstrap 5 Landing Page Template" />
         <meta name="keywords" content="bootstrap 5, premium, marketing, multipurpose" />
@@ -42,6 +46,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ms-auto navbar-center" id="navbar-navlist">
                         <li class="nav-item">
+
                             <a href="#home" class="nav-link active"><?= "Home" ?></a>
                         </li>
                         <li class="nav-item">
@@ -60,6 +65,7 @@
                         </li>
                     </ul>
                     <a href="" class="btn btn-sm rounded-pill nav-btn ms-lg-3"><?= "Buy Now" ?></a>
+
                 </div>
             </div>
             <!-- end container -->
@@ -72,6 +78,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="text-center">
+
                             <span class="badge badge-soft-primary mb-4"> "Professional Landing"</span>
                             <h1 class="font-weight-semibold mb-4 hero-3-title">"Professional, Multipurpose Landing Page" </h1>
                             <p class="mb-5 text-muted subtitle w-75 mx-auto"><?="NaturaTech Solutions Inc., established in 2019, is an eco-tech enterprise headquartered amidst the 
@@ -79,6 +86,7 @@ greenery of Portland, Oregon. Embracing the philosophy of 'Progress in Harmony',
 to produce technology that integrates seamlessly with nature, aiming to restore environmental balance 
 and promote sustainable living."?>
 </p>
+
                             
                             <div>
                                 <button type="button" class="btn btn-primary rounded-pill me-2">Sign up for free</button>
@@ -110,6 +118,7 @@ and promote sustainable living."?>
             <div class="container">
                 <div class="row justify-content-center mb-5">
                     <div class="col-lg-7 text-center">
+
                         <h2 class="fw-bold"><?="Our Services"?></h2>
                         <p class="text-muted"><?="GreenRoof, PureStream Filters, TerraCharge, EcoLearn Hub"?></p>
                     </div>
@@ -122,6 +131,7 @@ and promote sustainable living."?>
                                 <div class="icon-mono service-icon avatar-md mx-auto mb-4">
                                     <i class="" data-feather="box"></i>
                                 </div>
+
                                 <h4 class="mb-3 font-size-22"><?="GreenRoof"?></h4>
                                 <p class="text-muted mb-0"><?="Modular Green roofing system that utilizes smart sensors to regulate water, sunlight, and nutrients, allowing urban spaces to contribute positively to the environment."?></p>
 								
@@ -136,9 +146,11 @@ and promote sustainable living."?>
                                 <div class="icon-mono service-icon avatar-md mx-auto mb-4">
                                     <i class="" data-feather="layers"></i>
                                 </div>
+
                                 <h4 class="mb-3 font-size-22"><?="PureStream Filters"?></h4>
                                 <p class="text-muted mb-0"><?="Bio-engineered filters that harness the power of specific bacteria and 
 plants to purify water without chemicals, making potable water accessible and sustainable."?></p>
+
                             
 							</div>
                         </div>
@@ -151,6 +163,7 @@ plants to purify water without chemicals, making potable water accessible and su
                                 <div class="icon-mono service-icon avatar-md mx-auto mb-4">
                                     <i class="" data-feather="server"></i>
                                 </div>
+
                                 <h4 class="mb-3 font-size-22"><?="TerraCharge"?></h4>
                                 <p class="text-muted mb-0"> <?="Pathways made with special tiles that convert foot traffic into usable energy, 
 illuminating pathways at night or powering nearby amenities."?></p>
@@ -166,6 +179,7 @@ illuminating pathways at night or powering nearby amenities."?></p>
                                 <div class="icon-mono service-icon avatar-md mx-auto mb-4">
                                     <i class="" data-feather="server"></i>
                                 </div>
+
                                 <h4 class="mb-3 font-size-22"><?="EcoLearn Hub"?></h4>
                                 <p class="text-muted mb-0"> <?="A digital platform offering educational courses on sustainable living, organic 
 farming, and eco-technology innovations."?></p>
@@ -183,6 +197,7 @@ farming, and eco-technology innovations."?></p>
 
         </section>
         <!-- Services end -->
+
 
         <!-- Awards start -->
         <section class="section bg-light" id="Awards">
@@ -212,6 +227,7 @@ farming, and eco-technology innovations."?></p>
         </section>
         <!-- Cta end -->
 
+
        
 
         <!-- Team start -->
@@ -219,6 +235,7 @@ farming, and eco-technology innovations."?></p>
             <div class="container">
                 <div class="row justify-content-center mb-4">
                     <div class="col-lg-7 text-center">
+
                         <h2 class="fw-bold"><?="Our Team Members"?></h2>
                         <p class="text-muted"><?="Dr. Marcus Greene, Aisha Kwon, Carlos Mendoza, Lydia D'souza, Jamal Ahmed"?></p>
                     </div>
@@ -243,6 +260,7 @@ farming, and eco-technology innovations."?></p>
                                 </ul>
                             </div>
                             <div class="p-4">
+
                                 <h5 class="font-size-19 mb-1"><?="Dr. Marcus Greene"?></h5>
                                 <p class="text-muted text-uppercase font-size-14 mb-0"><?="Founder & CEO"?></p>
 								<p class="text-muted text-uppercase font-size-10 mb-0"><?="Holding a Ph.D. in Environmental Science from Stanford, Dr. 
@@ -270,6 +288,7 @@ leadership is the bedrock on which NaturaTech stands"?></p>
                                 </ul>
                             </div>
                             <div class="p-4">
+
                                 <h5 class="font-size-19 mb-1"><?="Aisha Kwon"?></h5>
                                 <p class="text-muted text-uppercase font-size-14 mb-0"><?"CTO"?></p>
 								<p class="text-muted text-uppercase font-size-10 mb-0"><?="Aisha, with her background in bio-engineering, is the mastermind behind the 
@@ -297,6 +316,7 @@ modern challenges"?></p>
                                 </ul>
                             </div>
                             <div class="p-4">
+
                                 <h5 class="font-size-19 mb-1"><?="Carlos Mendoza"?></h5>
                                 <p class="text-muted text-uppercase font-size-14 mb-0"><?="Cheif of Design"?></p>
 								<p class="text-muted text-uppercase font-size-10 mb-0"><?="Carlos, an alumnus of Design Academy Eindhoven, combines 
@@ -324,6 +344,7 @@ aesthetically appealing."?></p>
                                 </ul>
                             </div>
                             <div class="p-4">
+
                                 <h5 class="font-size-19 mb-1"><?="Lydia D'souza"?></h5>
                                 <p class="text-muted text-uppercase font-size-14 mb-0"><?="VP of Operations"?></p>
 								<p class="text-muted text-uppercase font-size-10 mb-0"><?="Lydia's expertise lies in sustainable supply chains. She ensures 
@@ -349,6 +370,7 @@ that every step in NaturaTech's operations is ethical, green, and efficient"?></
                                 </ul>
                             </div>
                             <div class="p-4">
+
                                 <h5 class="font-size-19 mb-1"><?="Jamal Ahmed"?></h5>
                                 <p class="text-muted text-uppercase font-size-14 mb-0"><?="Head of EcoLearn Hub"?></p>
 								<p class="text-muted text-uppercase font-size-10 mb-0"> <?="Jamal, a former environmental studies professor from 
@@ -364,7 +386,7 @@ Yale, curates and oversees the rich tapestry of courses offered by EcoLearn, spr
         </section>
         <!-- Team end -->
 
-      
+
 
         <!-- CTA start -->
         <section class="section bg-center w-100 bg-light" style="background-image: url(images/cta-bg.png);">
@@ -377,6 +399,7 @@ Yale, curates and oversees the rich tapestry of courses offered by EcoLearn, spr
                                 <div class="row justify-content-center">
                                     <div class="col-lg-10">
                                         <div class="p-3">
+
                                             <h2 class="text-white mb-4"><?="Join our Growing Community"?></h2>
                                             <p class="text-white-70 font-size-16 mb-4 pb-3"<?="To bridge the chasm between technology and nature"?>></p>
                                             <a href="javascript: void(0);" class="btn btn-light rounded-pill"><?="Sign Up for free"?></a>
@@ -403,6 +426,7 @@ Yale, curates and oversees the rich tapestry of courses offered by EcoLearn, spr
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
+
                         <h2 class="fw-bold mb-4"><?="Get in Touch"?></h2>
                         <p class="text-muted mb-5"><?="We'd love to hear from you."?></p>
                        
@@ -413,6 +437,7 @@ Yale, curates and oversees the rich tapestry of courses offered by EcoLearn, spr
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="mb-4">
+
                                             <label for="name" class="text-muted form-label"><?="Name"?></label>
                                             <input name="name" id="name" type="text" class="form-control" placeholder="Enter name*" >
                                         </div>
@@ -420,6 +445,7 @@ Yale, curates and oversees the rich tapestry of courses offered by EcoLearn, spr
                                     <!-- end col -->
                                     <div class="col-lg-6">
                                         <div class="mb-4">
+
                                             <label for="email" class="text-muted form-label"><?="Email"?></label>
                                             <input name="email" id="email" type="email" class="form-control" placeholder="Enter email*">
                                         </div>
@@ -427,11 +453,13 @@ Yale, curates and oversees the rich tapestry of courses offered by EcoLearn, spr
                                     <!-- end col -->
                                     <div class="col-md-12">
                                         <div class="mb-4">
+
                                             <label for="subject" class="text-muted form-label"><?="Subject"?></label>
                                             <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject.." />
                                         </div>
     
                                         <div class="mb-4 pb-2">
+
                                             <label for="comments" class="text-muted form-label"><?="Message"?></label>
                                             <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Enter message..."></textarea>
                                         </div>
@@ -450,6 +478,7 @@ Yale, curates and oversees the rich tapestry of courses offered by EcoLearn, spr
                     <div class="col-lg-5 ms-lg-auto">
                         <div class="mt-5 mt-lg-0">
                             <img src="images/contact.png" alt="" class="img-fluid d-block" />
+
                             <p class="text-muted mt-5 mb-3"><i class="me-2 text-muted icon icon-xs" data-feather="mail"></i> <?="Support@info.com"?></p>
                             <p class="text-muted mb-3"><i class="me-2 text-muted icon icon-xs" data-feather="phone"></i><?="+91 123 4556 789"?></p>
                             <p class="text-muted mb-3"><i class="me-2 text-muted icon icon-xs" data-feather="map-pin"></i> <?="2976 Edwards Street Rocky Mount, NC 27804"?></p>
@@ -481,6 +510,7 @@ Yale, curates and oversees the rich tapestry of courses offered by EcoLearn, spr
                     <div class="col-lg-4">
                         <div class="mb-4">
                             <a href="index-1.html"><img src="images/logo-light.png" alt="" class="" height="30" /></a>
+
                             <p class="text-white-50 my-4"><?="To bridge the chasm between technology and nature, weaving them together to pioneer solutions that 
 nurture the Earth and advance humanity."?></p>
                         </div>
@@ -491,6 +521,7 @@ nurture the Earth and advance humanity."?></p>
                         <div class="row">
                             <div class="col-lg-3 col-6">
                                 <div class="mt-4 mt-lg-0">
+
                                     <h4 class="text-white font-size-18 mb-3"><?="Customer"?></h4>
                                     <ul class="list-unstyled footer-sub-menu">
                                         <li><a href="javascript: void(0);" class="footer-link"><?="Works"?></a></li>
@@ -504,6 +535,7 @@ nurture the Earth and advance humanity."?></p>
                             <!-- end col -->
                             <div class="col-lg-3 col-6">
                                 <div class="mt-4 mt-lg-0">
+
                                     <h4 class="text-white font-size-18 mb-3"><?="Product"?></h4>
                                     <ul class="list-unstyled footer-sub-menu">
                                         <li><a href="javascript: void(0);" class="footer-link"><?="Trending"?></a></li>
@@ -516,6 +548,7 @@ nurture the Earth and advance humanity."?></p>
                             <!-- end col -->
                             <div class="col-lg-3 col-6">
                                 <div class="mt-4 mt-lg-0">
+
                                     <h4 class="text-white font-size-18 mb-3"><?="Information"?></h4>
                                     <ul class="list-unstyled footer-sub-menu">
                                         <li><a href="javascript: void(0);" class="footer-link"><?="Developers"?></a></li>
@@ -529,6 +562,7 @@ nurture the Earth and advance humanity."?></p>
                             <!-- end col -->
                             <div class="col-lg-3 col-6">
                                 <div class="mt-4 mt-lg-0">
+
                                     <h4 class="text-white font-size-18 mb-3"><?="Support"?></h4>
                                     <ul class="list-unstyled footer-sub-menu">
                                         <li><a href="javascript: void(0);" class="footer-link"><?="FAQ"?></a></li>
@@ -551,6 +585,7 @@ nurture the Earth and advance humanity."?></p>
                             <p class="text-white-50 f-15 mb-0">
                                 <script>
                                 document.write(new Date().getFullYear())
+
                             </script><?="© NaturaTech Solutions. Design By Themesbrand"?></p>
                         </div>
                     </div>
@@ -582,4 +617,5 @@ nurture the Earth and advance humanity."?></p>
         <!-- App Js -->
         <script src="js/app.js"></script>
     </body>
+
 </html>
