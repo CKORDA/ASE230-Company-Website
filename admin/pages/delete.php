@@ -1,11 +1,13 @@
 <?php
 include_once __DIR__ . '/pages.php';
 
+$pageManager = new PageManager('localhost', 'companywebsite', 'guest', 'guest');
+
 $pageId = isset($_GET['id']) ? $_GET['id'] : 1;
-$page = getPage($pageId);
+$page = $pageManager->getPage($pageId);
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    deletePage($pageId);
+    $pageManager->deletePage($pageId);
 
     header('Location: index.php');
     exit;

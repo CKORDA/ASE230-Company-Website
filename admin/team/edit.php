@@ -31,19 +31,22 @@ if ($teamMember !== null) {
 
     <form method="post">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" value="<?= $teamMember['name'] ?>" required>
+        <input type="text" id="name" name="name" value="<?= $teamMember->getName() ?>" required>
 
         <label for="position">Position:</label>
-        <input type="text" id="position" name="position" value="<?= $teamMember['position'] ?>" required>
+        <input type="text" id="position" name="position" value="<?= $teamMember->getPosition() ?>" required>
 
         <label for="bio">Bio:</label>
-        <textarea id="bio" name="bio" required><?= $teamMember['bio'] ?></textarea>
+        <textarea id="bio" name="bio" required><?= $teamMember->getBio() ?></textarea>
 
         <button type="submit">Save Changes</button>
     </form>
 
-    <a href="detail.php?id=<?= $teamMember['id'] ?>">Cancel</a>
+    <a href="detail.php?id=<?= $teamMember->getId() ?>">Cancel</a>
     <a href="index.php">Back to List</a>
+
+
+
 
     </body>
     </html>

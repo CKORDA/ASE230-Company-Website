@@ -6,6 +6,12 @@ $productId = isset($_GET['id']) ? $_GET['id'] : 0;
 // Fetch the product data for the given ID
 $product = getProduct($productId);
 
+if (!$product) {
+    // Handle the case where the product is not found
+    echo "Product not found!";
+    exit;
+}
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Delete the product with the given ID
     deleteProduct($productId);
@@ -27,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <h1>Delete Product</h1>
 
-<p>Are you sure you want to delete the product: <?= $product['productName'] ?>?</p>
+<p>Are you sure you want to delete the product: <?= $product->getProductName() ?>?</p>
 
 <form method="post">
     <button type="submit">Yes, Delete</button>

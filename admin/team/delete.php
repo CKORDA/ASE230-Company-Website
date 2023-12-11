@@ -25,14 +25,15 @@ if ($teamMember !== null) {
 
     <h1>Delete Team Member</h1>
 
-    <p>Are you sure you want to delete <?= $teamMember['name'] ?>?</p>
+    <p>Are you sure you want to delete <?= $teamMember->getName() ?>?</p>
 
     <form method="post">
         <button type="submit">Yes, Delete</button>
     </form>
 
-    <a href="detail.php?id=<?= $teamMember['id'] ?>">Cancel</a>
+    <a href="detail.php?id=<?= $teamMember->getId() ?>">Cancel</a>
     <a href="index.php">Back to List</a>
+
 
     </body>
     </html>

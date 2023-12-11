@@ -16,12 +16,13 @@ $allTeamMembers = getAllTeamMembers();
 <h1>Team List</h1>
 
 <ul>
-    <?php foreach ($allTeamMembers as $member): ?>
-        <li>
-            <?= $member['name'] ?> - <?= $member['position'] ?>
-            <a href="detail.php?id=<?= $member['id'] ?>">Detail</a>
-        </li>
-    <?php endforeach; ?>
+<?php foreach ($allTeamMembers as $member): ?>
+    <li>
+        <?= $member->getName() ?> - <?= $member->getPosition() ?>
+        <a href="detail.php?id=<?= $member->getId() ?>">Detail</a>
+    </li>
+<?php endforeach; ?>
+
 </ul>
 
 <a href="create.php">Add New Team Member</a>

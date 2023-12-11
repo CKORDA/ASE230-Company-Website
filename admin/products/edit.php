@@ -34,10 +34,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <form method="post">
     <label for="productName">Product Name:</label>
-    <input type="text" id="productName" name="productName" value="<?= $product['productName'] ?>" required>
+    <input type="text" id="productName" name="productName" value="<?= $product->getProductName() ?>" required>
 
     <label for="applications">Applications:</label>
-    <textarea id="applications" name="applications" required><?= $product['applications'] ?></textarea>
+    <textarea id="applications" name="applications" required><?= $product->getApplications() ?></textarea>
 
     <button type="submit">Save Changes</button>
 </form>

@@ -24,8 +24,8 @@ if (!$product) {
 
 <h1>Product Detail</h1>
 
-<h2><?= $product['productName'] ?></h2>
-<p><?= $product['applications'] ?></p>
+<h2><?= $product->getProductName() ?></h2>
+<p><?= $product->getApplications() ?></p>
 
 <a href="edit.php?id=<?= $productId ?>">Edit</a>
 <a href="delete.php?id=<?= $productId ?>">Delete</a>

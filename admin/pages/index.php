@@ -1,7 +1,8 @@
 <?php
 include_once __DIR__ . '/pages.php';
 
-$allPages = getAllPages();
+$pageManager = new PageManager('localhost', 'companywebsite', 'guest', 'guest');
+$allPages = $pageManager->getAllPages();
 ?>
 
 <!DOCTYPE html>

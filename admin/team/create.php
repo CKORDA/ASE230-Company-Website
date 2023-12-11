@@ -8,9 +8,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'bio' => $_POST['bio'],
     ];
 
-    createTeamMember($data);
+    $lastInsertId = createTeamMember($data);
 
-    header('Location: edit.php?id=' . $pdo->lastInsertId());
+    header('Location: edit.php?id=' . $lastInsertId);
     exit;
 }
 ?>

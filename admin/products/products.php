@@ -1,5 +1,29 @@
 <?php
 
+class Product {
+    private $id;
+    private $productName;
+    private $applications;
+
+    public function __construct($id, $productName, $applications) {
+        $this->id = $id;
+        $this->productName = $productName;
+        $this->applications = $applications;
+    }
+
+    public function getId() {
+        return $this->id;
+    }
+
+    public function getProductName() {
+        return $this->productName;
+    }
+
+    public function getApplications() {
+        return $this->applications;
+    }
+}
+
 // Database connection parameters
 $host = 'localhost';
 $dbname = 'companywebsite';
@@ -21,7 +45,18 @@ function getAllProducts() {
 
     try {
         $stmt = $pdo->query("SELECT * FROM products");
-        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        $productsData = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+        $products = [];
+        foreach ($productsData as $productData) {
+            $products[] = new Product(
+                $productData['id'],
+                $productData['productName'],
+                $productData['applications']
+            );
+        }
+
+        return $products;
     } catch (PDOException $e) {
         die("Error fetching products: " . $e->getMessage());
     }
@@ -36,7 +71,17 @@ function getProduct($id) {
         $stmt->bindParam(':id', $id, PDO::PARAM_INT);
         $stmt->execute();
 
-        return $stmt->fetch(PDO::FETCH_ASSOC);
+        $productData = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        if ($productData) {
+            return new Product(
+                $productData['id'],
+                $productData['productName'],
+                $productData['applications']
+            );
+        } else {
+            return null;
+        }
     } catch (PDOException $e) {
         die("Error fetching product: " . $e->getMessage());
     }
@@ -85,3 +130,4 @@ function deleteProduct($id) {
         die("Error deleting product: " . $e->getMessage());
     }
 }
+?>

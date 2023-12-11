@@ -27,13 +27,13 @@ $allProducts = getAllProducts();
     <tbody>
     <?php foreach ($allProducts as $product): ?>
         <tr>
-            <td><?= $product['id'] ?></td>
-            <td><?= $product['productName'] ?></td>
-            <td><?= $product['applications'] ?></td>
+            <td><?= $product->getId() ?></td>
+            <td><?= $product->getProductName() ?></td>
+            <td><?= $product->getApplications() ?></td>
             <td>
-                <a href="detail.php?id=<?= $product['id'] ?>">Detail</a> |
-                <a href="edit.php?id=<?= $product['id'] ?>">Edit</a> |
-                <a href="delete.php?id=<?= $product['id'] ?>">Delete</a>
+                <a href="detail.php?id=<?= $product->getId() ?>">Detail</a> |
+                <a href="edit.php?id=<?= $product->getId() ?>">Edit</a> |
+                <a href="delete.php?id=<?= $product->getId() ?>">Delete</a>
             </td>
         </tr>
     <?php endforeach; ?>

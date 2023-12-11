@@ -1,15 +1,17 @@
 <?php
 include_once __DIR__ . '/pages.php';
 
+$pageManager = new PageManager('localhost', 'companywebsite', 'guest', 'guest');
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $data = [
         'pageName' => $_POST['pageName'],
         'contents' => $_POST['contents'],
     ];
 
-    createPage($data);
+    $pageManager->createPage($data);
 
-    header('Location: edit.php?id=' . $pdo->lastInsertId());
+    header('Location: edit.php?id=' . $pageManager->getLastInsertId());
     exit;
 }
 ?>

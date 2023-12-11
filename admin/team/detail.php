@@ -15,14 +15,14 @@ if ($teamMember !== null) {
     <body>
 
     <h1>Team Member Detail</h1>
+    <p>Name: <?= $teamMember->getName() ?></p>
+    <p>Position: <?= $teamMember->getPosition() ?></p>
+    <p>Bio: <?= $teamMember->getBio() ?></p>
 
-    <p>Name: <?= $teamMember['name'] ?></p>
-    <p>Position: <?= $teamMember['position'] ?></p>
-    <p>Bio: <?= $teamMember['bio'] ?></p>
-
-    <a href="edit.php?id=<?= $teamMember['id'] ?>">Edit</a>
-    <a href="delete.php?id=<?= $teamMember['id'] ?>">Delete</a>
+    <a href="edit.php?id=<?= $teamMember->getId() ?>">Edit</a>
+    <a href="delete.php?id=<?= $teamMember->getId() ?>">Delete</a>
     <a href="index.php">Back to List</a>
+
 
     </body>
     </html>
