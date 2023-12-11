@@ -1,6 +1,0 @@
-Name: hi
-Email: hi@gmail.com
-Subject: hi
-Message: hi
-
-
